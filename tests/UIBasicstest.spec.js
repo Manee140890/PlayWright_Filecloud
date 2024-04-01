@@ -13,7 +13,7 @@ test('Login Test',async ({browser})=>
 
 });
 
-test.only('Login Test_direct_page',async ({page})=>
+test('Login Test_direct_page',async ({page})=>
 {
    
     await page.goto("https://dogfooding.filecloudlabs.com/ui/admin2/index.html#/");
